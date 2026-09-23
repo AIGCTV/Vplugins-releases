@@ -69,21 +69,9 @@ Vplugins 是面向 Adobe Photoshop 的 AI 图像工作流工具。它在 Photosh
 
 > 本地自定义功能使用你的本机 ComfyUI，不依赖 Vplugins 会员。模型、插件和显存需求由具体工作流决定。
 
-### 开发
+### 支持Photoshop版本
 
-主要目录：
-
-- `tauri-app/`：Tauri v2、React、TypeScript 与 Rust 主应用。
-- `uxp-bridge/`：Photoshop UXP Bridge。
-- `docs/`：用户指南、协议和开发文档。
-
-```powershell
-cd tauri-app
-npm ci
-npm run tauri -- dev
-```
-
-开发环境需要 Node.js 22、Rust stable、Tauri v2 所需的 Windows 构建工具，以及 Adobe Photoshop 24.0 或更高版本。
+支持Adobe Photoshop 24.0 或更高版本、兼容windows及Mac。
 
 ---
 
@@ -140,19 +128,9 @@ The detailed documentation is currently available in Chinese: [Quick Start](docs
 
 > Local custom features run on your own ComfyUI installation and do not require a Vplugins membership. Model, extension, and VRAM requirements depend on the workflow.
 
-### Development
+### Supported Photoshop Versions
 
-- `tauri-app/`: Tauri v2, React, TypeScript, and Rust application.
-- `uxp-bridge/`: Photoshop UXP Bridge.
-- `docs/`: user guides, contracts, and development notes.
-
-```powershell
-cd tauri-app
-npm ci
-npm run tauri -- dev
-```
-
-Development requires Node.js 22, Rust stable, the Windows build tools required by Tauri v2, and Adobe Photoshop 24.0 or newer.
+Supports Adobe Photoshop 24.0 or later; compatible with Windows and Mac.
 
 ---
 
